@@ -1,0 +1,83 @@
+/* Review.css */
+.review-section {
+	background-color: #121212; /* Matching background color */
+	color: #ffffff; /* White text color */
+	padding: 20px; /* Padding for the review section */
+	border-radius: 8px; /* Rounded corners */
+	font-family: Arial, sans-serif; /* Consistent font */
+	text-align: left; /* Left-aligned text */
+}
+
+/* Review form styles */
+.review-form {
+	margin-bottom: 20px; /* Space below the form */
+}
+
+/* Textarea styling */
+.review-form textarea {
+	width: 100%; /* Full width */
+	padding: 10px; /* Inner padding */
+	margin-bottom: 10px; /* Space below the textarea */
+	background-color: #333333; /* Background color for textarea */
+	color: #ffffff; /* Text color */
+	border: 1px solid #444444; /* Border styling */
+	border-radius: 4px; /* Rounded corners */
+	resize: none; /* Disable resizing */
+}
+
+/* Select for rating */
+.review-form select {
+	margin-bottom: 10px; /* Space below the select */
+}
+
+/* Button styling */
+button {
+	background-color: #1a73e8; /* Button background color */
+	color: #ffffff; /* Button text color */
+	padding: 10px 20px; /* Button padding */
+	border: none; /* No border */
+	border-radius: 4px; /* Rounded corners */
+	cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+	background-color: #1669c1; /* Darker color on hover */
+}
+
+/* Review list styling */
+.reviews-list {
+	margin-top: 20px; /* Space above the reviews list */
+}
+
+/* Individual review item styling */
+.review-item {
+	background-color: #1c1c1e; /* Background for review item */
+	padding: 15px; /* Inner padding */
+	margin-bottom: 10px; /* Space below each review */
+	border-radius: 6px; /* Rounded corners */
+	border: 1px solid #444; /* Subtle border */
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Soft shadow */
+	word-wrap: break-word; /* Allow text to wrap within the box */
+}
+
+/* Review text and metadata */
+.review-item p {
+	margin: 5px 0; /* Space between paragraphs */
+	font-size: 14px; /* Font size */
+}
+
+/* Username styling */
+.review-item p:nth-child(1) {
+	font-weight: bold; /* Bold for username */
+}
+
+/* Timestamp styling */
+.review-item p:nth-child(4) {
+	font-size: 12px; /* Smaller font for timestamp */
+	color: #888888; /* Light gray color for timestamp */
+}
+
+.error {
+	color: red; /* Red color for error messages */
+	margin-bottom: 10px; /* Space below error messages */
+}

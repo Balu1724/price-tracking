@@ -1,0 +1,118 @@
+.auth-container {
+	max-width: 430px;
+	width: 90%; /* Adjust as needed */
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	margin: auto;
+	margin-top: 50px;
+}
+
+.auth-container .registration {
+	display: block;
+}
+
+#check:checked ~ .registration {
+	display: none;
+}
+
+#check:checked ~ .login {
+	display: none;
+}
+
+#check {
+	display: none;
+}
+
+.auth-container .form {
+	padding: 2rem;
+}
+
+.form header {
+	font-size: 2rem;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.form input {
+	height: 60px;
+	width: 100%;
+	padding: 0 15px;
+	font-size: 17px;
+	margin-bottom: 1.3rem;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.form input:focus {
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form a {
+	font-size: 16px;
+	color: #8bb6bc;
+	text-decoration: none;
+}
+
+.form a:hover {
+	text-decoration: underline;
+}
+
+.form input.button {
+	color: #fff;
+	background: #a3dfe7;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 1.7rem;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.form input.button:hover {
+	background: #1e8c9b;
+}
+
+.signup {
+	font-size: 17px;
+	text-align: center;
+}
+
+.signup label {
+	color: #74acb3;
+	cursor: pointer;
+}
+
+.signup label:hover {
+	text-decoration: underline;
+	color: #1e8c9b;
+}
+
+/* Container for the role selection radio buttons */
+.role-selection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-top: 1rem;
+}
+
+/* Smaller styling for radio buttons */
+.role-selection label {
+	font-size: 0.9rem;
+	color: #333;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+}
+
+.form .role-selection input[type="radio"] {
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	margin: 0;
+}

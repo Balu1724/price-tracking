@@ -1,0 +1,130 @@
+/* Retaining existing CSS styles */
+
+
+.home-header {
+	align-items: center;
+	background-color: #282c34;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 20px;
+	width: 100%;
+}
+
+.home-header h1 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+
+.create-product-btn {
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.create-product-btn:hover {
+	background-color: #45a049;
+}
+
+.filter-cont {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.filter-cont input,
+.filter-cont select {
+	padding: 8px;
+	margin: 0 10px;
+}
+
+.product-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	margin: 20px;
+}
+
+.product-box {
+	border: 1px solid #ddd;
+	background-color: #ffffff;
+	padding: 15px;
+	width: 200px;
+	cursor: pointer;
+	transition: transform 0.3s;
+	border-radius: 5%;
+	max-height: fit-content;
+	margin-top: 10px;
+}
+
+.product-box:hover {
+	transform: scale(1.05);
+}
+
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4); /* Darker background */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px); /* Background blur effect */
+	z-index: 9999;
+}
+
+.modal {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	max-width: 500px;
+	width: 100%;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.modal label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.modal input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.modal button {
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.modal button:hover {
+	background-color: #45a049;
+}
+
+.close-btn {
+	background-color: #f44336;
+}
+
+.close-btn:hover {
+	background-color: #e60000;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}

@@ -1,0 +1,207 @@
+/* General styling for discussion and comments */
+.discussion-tab {
+	background-color: #121212;
+	color: #ffffff;
+	padding: 20px;
+	border-radius: 8px;
+	font-family: Arial, sans-serif;
+	text-align: left;
+}
+
+/* Post discussion and comment sections */
+.post-discussion,
+.post-comment {
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.discussion-tab input[type="text"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: #333333;
+	color: #ffffff;
+	border: 1px solid #444444;
+	border-radius: 4px;
+}
+
+button {
+	background-color: #1a73e8;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+button:hover {
+	background-color: #1669c1;
+}
+
+/* Styling for discussion item */
+.discussions-list .discussion-item {
+	background-color: #1c1c1e;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.discussions-list .discussion-item:hover {
+	background-color: #2c2c2e;
+}
+
+/* Style for discussion items */
+.discussion-item {
+	background-color: #1e1e1e;
+	padding: 15px;
+	border-radius: 8px;
+	margin-bottom: 15px;
+	border: 1px solid #444444;
+	cursor: pointer;
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Add box shadow and slight zoom effect on hover */
+.discussion-item:hover {
+	box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+	transform: translateY(-5px);
+}
+
+/* Style for discussion title */
+.discussion-item h4 {
+	margin: 0;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+/* Style for user info and timestamps */
+.discussion-item p {
+	margin: 5px 0;
+	color: #bbbbbb;
+	font-size: 14px;
+}
+/* Discussion detail box */
+.discussion-detail {
+	background-color: #1e1e1f;
+	padding: 20px;
+	border-radius: 8px;
+	margin-top: 20px;
+	text-align: left;
+}
+
+/* Comments section heading */
+.comments-section h4 {
+	border-bottom: 1px solid #444;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+/* Top-level comment box with white border and shadow */
+.comment-box {
+	background-color: #252526;
+	padding: 15px;
+	border-radius: 8px;
+	margin-top: 20px;
+	border: 1px solid #ffffff; /* White border for the top-level comments */
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); /* Soft shadow for better visibility */
+	text-align: left;
+}
+
+/* Individual comment item */
+.comment-item {
+	background-color: #1e1e1f;
+	padding: 15px;
+	border-radius: 6px;
+	margin-top: 10px;
+	border: 1px solid #333; /* Subtle border for nested comments */
+	text-align: left;
+}
+
+/* Comment text and metadata */
+.comment-item p {
+	margin: 5px 0;
+	font-size: 14px;
+	text-align: left;
+}
+
+.comment-item p:nth-child(2) {
+	color: #aaaaaa; /* Username color */
+}
+
+.comment-item p:nth-child(3) {
+	font-size: 12px;
+	color: #888888; /* Timestamp color */
+}
+
+/* Replies section for nested comments */
+.replies {
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-left: 2px solid #444;
+}
+
+/* Reply input section */
+.reply-input input {
+	width: calc(100% - 100px);
+	padding: 8px;
+	background-color: #333333;
+	color: #ffffff;
+	border: 1px solid #444444;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.reply-input button {
+	width: 90px;
+	background-color: #28a745;
+	margin: 5px;
+	padding: 8px;
+	border-radius: 4px;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.reply-input button:hover {
+	background-color: #218838;
+}
+
+/* Upvote section */
+.upvote-section {
+	display: inline-block;
+	margin-right: 10px;
+	color: #999999;
+	text-align: left;
+}
+
+/* Reply button under each comment */
+.reply-button {
+	background-color: transparent;
+	color: #1a73e8;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.reply-button:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/* Nested comment boxes */
+.comment-box .comment-item {
+	margin-left: 0;
+	text-align: left;
+}
+
+.replies .comment-item {
+	margin-left: 20px;
+	text-align: left;
+}
